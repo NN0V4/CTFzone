@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 100px; /* Center the form vertically */
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.form-signin, .form-signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.btn {
+    margin-top: 10px; /* Space above the button */
+}

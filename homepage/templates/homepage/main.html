@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+{% include 'navbar.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTFzone - Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #2b2b2b; /* Dark grey background */
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Center the text horizontally */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align all the elements */
+        }
+
+        h1 {
+            font-size: 80px;
+            font-weight: normal; /* Removes bold */
+            letter-spacing: 0.15em; /* Character spacing */
+            line-height: 1; /* Line spacing */
+            color: #BADA55; /* Text color */
+        }
+
+        .subtext {
+            font-family: 'Avenir Light', sans-serif; /* AVENIR LIGHT font */
+            font-size: 15px;
+            color: white;
+            letter-spacing: 0.15px;
+            line-height: auto;
+        }
+
+        .progress-bar-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            width: 100%; /* Make the container take the full width */
+            justify-content: center; /* Center the progress bar */
+        }
+
+        .start, .end {
+            font-family: 'Avenir Light', sans-serif;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+
+        .progress-bar {
+            width: 500px; /* Stretch the progress bar */
+            height: 10px; /* Thin height */
+            background-color: #ddd; /* Background of the bar */
+            position: relative;
+            border-radius: 5px;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #BADA55; /* Mint green color */
+            width: 25%; /* Sets the progress */
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .progress::after {
+            content: '25%'; /* Shows the percentage */
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #BADA55;
+            font-family: 'Avenir Light', sans-serif;
+            font-size: 16px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+            color: white;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CTFzone is under construction</h1>
+        <p class="subtext">Get ready for the next level</p>
+        
+        <div class="progress-bar-container">
+            <span class="start">0%</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span class="end">100%</span>
+        </div>
+    </div>
+    <footer>
+        <p>@ 2024 CTFzone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
